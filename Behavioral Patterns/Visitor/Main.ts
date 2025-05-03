@@ -18,12 +18,6 @@ parent.addFile(CFile);
 parent2.addFile(DFile);
 parent.addFile(parent2);
 
-// visitor.calcFileSize(AFile);
-// visitor.calcFileSize(BFile);
-// visitor.calcFileSize(CFile);
-// visitor.calcDirSize(parent2);
-// visitor.calcDirSize(parent);
-
 AFile.accept(visitor);
 BFile.accept(visitor);
 CFile.accept(visitor);
